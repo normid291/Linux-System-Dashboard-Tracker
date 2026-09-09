@@ -1,4 +1,4 @@
-# sysdash.sh — Linux System Dashboard
+# Linux System Dashboard
 
 A live, auto-refreshing dashboard that runs right in your terminal and shows you what's going on with your Linux machine — CPU, memory, disk space, network, temperature, and top processes, all in one screen, updating automatically.
 
