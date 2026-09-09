@@ -8,7 +8,7 @@ Think of it like a simplified, terminal-based Task Manager (Windows) or Activity
 
 | Section | What it means in plain terms |
 |---|---|
-| **HOST** | Basic info about your machine — hostname, OS version, kernel version, and how long it's been running (uptime) |
+| **HOST** | Basic info about your machine; hostname, OS version, kernel version, and how long it's been running (uptime) |
 | **LOAD AVERAGE** | How "busy" your system is on average over the last 1, 5, and 15 minutes. Lower is calmer. |
 | **CPU** | What percentage of your processor is currently being used, plus what CPU model you have |
 | **MEMORY** | How much RAM is total / used / free / available, plus swap (backup memory on disk) |
