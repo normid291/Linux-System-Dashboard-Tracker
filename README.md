@@ -1,6 +1,6 @@
 # sysdash.sh — Linux System Dashboard
 
-A live, auto-refreshing dashboard that runs right in your terminal and shows you what's going on with your Linux machine — CPU, memory, disk space, network, temperature, and top processes — all in one screen, updating automatically.
+A live, auto-refreshing dashboard that runs right in your terminal and shows you what's going on with your Linux machine — CPU, memory, disk space, network, temperature, and top processes, all in one screen, updating automatically.
 
 Think of it like a simplified, terminal-based Task Manager (Windows) or Activity Monitor (Mac), but built entirely with plain Bash and standard Linux tools.
 
@@ -17,7 +17,7 @@ Think of it like a simplified, terminal-based Task Manager (Windows) or Activity
 | **TEMPERATURE** | Your hardware's temperature sensors, if your machine exposes them (cloud servers often don't have this) |
 | **TOP 5 PROCESSES** | The 5 programs currently using the most CPU |
 
-Everything is color-coded — **green** means healthy, **yellow** means getting busy, **red** means it's running hot/full/high.
+Everything is color-coded: **green** means healthy, **yellow** means getting busy, **red** means it's running hot/full/high.
 
 ## How to Use It
 
@@ -39,7 +39,7 @@ By default, it refreshes every **2 seconds**. To change that, pass a number (in 
 ```
 
 **3. Stop it:**
-Press `Ctrl + C` at any time — it'll exit cleanly with a goodbye message instead of just cutting off.
+Press `Ctrl + C` at any time, it'll exit cleanly with a goodbye message instead of just cutting off.
 
 ## Requirements
 
@@ -47,7 +47,7 @@ No installation needed beyond what most Linux systems already have built in:
 - Bash (the shell itself)
 - Standard tools: `df`, `free`, `uptime`, `ps`, `ip`, `awk`
 
-Works on virtually any Linux distro — Ubuntu, Debian, Amazon Linux, etc. Some sections (like Temperature) may show "not available" on cloud VMs, since virtual servers often don't expose hardware sensors — that's expected, not a bug.
+Works on virtually any Linux distro; Ubuntu, Debian, Amazon Linux, etc. Some sections (like Temperature) may show "not available" on cloud VMs, since virtual servers often don't expose hardware sensors — that's expected, not a bug.
 
 ## Why It's Built This Way (for anyone learning Bash/Linux)
 
