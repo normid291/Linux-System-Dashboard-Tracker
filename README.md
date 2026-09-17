@@ -2,7 +2,7 @@
 
 A live, auto-refreshing dashboard that runs right in your terminal and shows you what's going on with your Linux machine; CPU, memory, disk space, network, temperature, and top processes, all in one screen, updating automatically.
 
-Think of it like a simplified, terminal-based Task Manager (Windows) or Activity Monitor (Mac), but built entirely with plain Bash and standard Linux tools.
+Think of it like a simplified, terminal-based Task Manager on (Windows) or Activity Monitor (Mac), but built entirely with plain Bash and standard Linux tools.
 
 ## What It Shows You
 
